@@ -1,0 +1,73 @@
+/* Blockquote (16/20)*/
+#workspace_container blockquote{
+	color: inherit;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+/* General text*/
+#workspace_container h1,h2,h3,h4,h5,h6{
+	color: inherit;
+}
+
+/* Heading 1 (48/60)*/
+#workspace_container h1{
+	color: inherit;
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 0px;
+}
+
+/* Standard paragraph (12/15)*/
+#workspace_container p{
+	font-size: 1em;
+	line-height: 15px;
+	margin-bottom: 15px;
+}
+
+/* Base style*/
+#workspace_container body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #fecece;
+	color: red;
+}
+
+/* Preformatted*/
+#workspace_container pre{
+	font-size: 11px;
+}
+
+/* Lists*/
+#workspace_container ul, ol{
+	padding: 0px;
+}
+
+/* List element*/
+#workspace_container li{
+	line-height: 15px;
+}
+
+/* Unordered list*/
+#workspace_container ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -5px;
+}
+
+/* List bullet style*/
+#workspace_container .kh-grid-block ul li:before, .grid-block ul li:before{
+	content: "·";
+	font-size: 80px;
+	vertical-align: -20px;
+	line-height: 0px;
+}
+
+/* Preamble*/
+#workspace_container p.preamble{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+

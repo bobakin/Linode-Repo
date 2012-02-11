@@ -1,0 +1,185 @@
+/* Blockquote (16/20)*/
+blockquote{
+	color: inherit;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+/* General text*/
+h1,h2,h3,h4,h5,h6{
+	color: inherit;
+}
+
+/* Heading 1 (48/60)*/
+h1{
+	color: inherit;
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 0px;
+}
+
+/* Standard paragraph (12/15)*/
+p{
+	font-size: 1em;
+	line-height: 15px;
+	margin-bottom: 15px;
+}
+
+/* Base style*/
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #fecece;
+	color: red;
+}
+
+/* Preformatted*/
+pre{
+	font-size: 11px;
+}
+
+/* Lists*/
+ul, ol{
+	padding: 0px;
+}
+
+/* List element*/
+li{
+	line-height: 15px;
+}
+
+/* Unordered list*/
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -5px;
+}
+
+/* List bullet style*/
+.kh-grid-block ul li:before, .grid-block ul li:before{
+	content: "·";
+	font-size: 80px;
+	vertical-align: -20px;
+	line-height: 0px;
+}
+
+/* Preamble*/
+p.preamble{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#block_1{
+	top: 0px; 
+	height: 75px; 
+	left: 0px; 
+	width: 220px; 
+	z-index: 12; 
+}
+
+#block_2{
+	top: 0px; 
+	height: 570px; 
+	left: 240px; 
+	width: 700px; 
+	z-index: 4; 
+}
+
+#block_3{
+	top: 300px; 
+	height: 60px; 
+	left: 0px; 
+	width: 220px; 
+	z-index: 15; 
+}
+
+#block_4{
+	top: 360px; 
+	height: 210px; 
+	left: 0px; 
+	width: 300px; 
+	z-index: 1; 
+}
+
+#block_5{
+	top: 390px; 
+	height: 30px; 
+	left: 480px; 
+	width: 300px; 
+	z-index: 10; 
+}
+
+#block_6{
+	top: 510px; 
+	height: 510px; 
+	left: 400px; 
+	width: 540px; 
+	z-index: 2; 
+}
+
+#block_7{
+	top: 585px; 
+	height: 330px; 
+	left: 0px; 
+	width: 300px; 
+	z-index: 6; 
+}
+
+#block_8{
+	top: 930px; 
+	height: 90px; 
+	left: 80px; 
+	width: 220px; 
+	z-index: 11; 
+}
+
+#block_9{
+	top: 1035px; 
+	height: 60px; 
+	left: 0px; 
+	width: 60px; 
+	z-index: 14; 
+}
+
+#block_10{
+	top: 1035px; 
+	height: 165px; 
+	left: 80px; 
+	width: 220px; 
+	z-index: 13; 
+}
+
+#block_11{
+	top: 1035px; 
+	height: 150px; 
+	left: 400px; 
+	width: 300px; 
+	z-index: 9; 
+}
+
+#block_12{
+	top: 1035px; 
+	height: 150px; 
+	left: 720px; 
+	width: 220px; 
+	z-index: 7; 
+}
+
+#block_13{
+	top: 1200px; 
+	height: 165px; 
+	left: 0px; 
+	width: 60px; 
+	z-index: 3; 
+}
+
+#block_14{
+	top: 1200px; 
+	height: 210px; 
+	left: 400px; 
+	width: 540px; 
+	z-index: 8; 
+}
+

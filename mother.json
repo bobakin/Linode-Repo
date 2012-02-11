@@ -1,0 +1,101 @@
+{
+"gridSettings":
+{
+	"baseline": 15,
+	"column": 80,
+	"gutter": 20
+},
+"objectStyles": {
+	"blockquote" : {
+		"name" : "Blockquote (16/20)",
+		"selector" : "blockquote",
+		"gridStyles" : {
+			"lineHeightBaseLines": 1
+		},
+		"css" : {
+			"color": "inherit",
+			"font-size": 16,
+			"line-height": 20,
+			"margin-bottom": 15
+		}
+	},
+	"h1,h2,h3,h4,h5,h6,p,li" : {
+		"name" : "General text",
+		"selector" : "h1,h2,h3,h4,h5,h6",
+		"css" : {
+			"color": "inherit"
+		}
+	},
+	"h1" : {
+		"name" : "Heading 1 (48/60)",
+		"selector" : "h1",
+		"gridStyles" : {
+			"lineHeightBaseLines": 2
+		},
+		"css" : {
+			"color": "inherit",
+			"font-size": 48,
+			"line-height": 60,
+			"margin-bottom": 0
+		}
+	},
+	"p" : {
+		"name" : "Standard paragraph (12/15)",
+		"selector" : "p",
+		"gridStyles" : {
+			"lineHeightBaseLines": 1
+		},
+		"css" : {
+			"font-size": "1em",
+			"line-height": 15,
+			"margin-bottom": 15
+		}
+	},
+	"body" : {
+		"name" : "Base style",
+		"selector" : "body",
+		"css" : {
+			"font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif"
+		}
+	},
+	"pre" : {
+		"name" : "Preformatted",
+		"selector" : "pre",
+		"css" : {
+			"font-size": 11
+		}
+		
+	},
+	"ul, ol" : {
+		"name" : "Lists",
+		"css" : {
+			"padding" : 0
+		}
+	},
+	"li" : {
+		"name" : "List element",
+		"css" : {
+			"line-height": "15px"
+		}
+	},
+	"ul" : {
+		"name" : "Unordered list",
+		"css" : {
+			"list-style" : "none",
+			"padding" : 0,
+			"margin" : 0,
+			"margin-left" : "-5px"
+		}
+	},
+	"li:before" : {
+		"name" : "List bullet style",
+		"selector" : ".kh-grid-block ul li:before, .grid-block ul li:before",
+		"css" : {
+			"content" : "\"·\"",
+			"font-size" : "80px",
+			"vertical-align" : "-20px",
+			"line-height" : "0px"
+		}
+	}
+}
+}
