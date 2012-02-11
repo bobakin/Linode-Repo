@@ -1,1 +1,1 @@
-<?php echo `whoami`; ?>
+<?php `git pull`; ?>
